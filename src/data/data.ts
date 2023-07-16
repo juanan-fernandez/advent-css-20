@@ -1,11 +1,12 @@
-export const Episodes = [
+import type { EpisodeT } from './types';
+export const Episodes: EpisodeT[] = [
 	{
 		id: 39,
 		title: 'Tech to Look Forward to in 2022',
 		description:
 			'In this episode, Amy and James discuss the future of web development: Astro, Vite, Supabase, SvelteKit, Redwood.js, Blitz.js, GitHub Co-Pilot, Web Assembly, Blockchain, w3, no-code, and low-code.',
 		cover: 'cover__episode-39.png',
-		Link: 'https://www.compressed.fm/episode/39',
+		link: 'https://www.compressed.fm/episode/39',
 	},
 	{
 		id: 38,
@@ -13,7 +14,7 @@ export const Episodes = [
 		description:
 			'This episode is full of picks! Amy and James talk about all of their favorite things, just in time for the holidays.',
 		cover: 'cover__episode-38.png',
-		Link: 'https://www.compressed.fm/episode/38',
+		link: 'https://www.compressed.fm/episode/38',
 	},
 
 	{

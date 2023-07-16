@@ -1,0 +1,37 @@
+.episode {
+	margin-top: 6rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: start;
+	gap: 2rem;
+}
+
+.episode img {
+	border: 1px solid white;
+}
+
+.episode h2 {
+	margin-bottom: 1rem;
+}
+
+.episode p {
+	margin-bottom: 1rem;
+	line-height: 1.7rem;
+}
+
+.episode a {
+	display: flex;
+	color: #fbff00;
+	font-size: 0.8rem;
+	letter-spacing: 3px;
+	line-height: 3rem;
+	align-items: center;
+}
+
+.episode a img {
+	border: none;
+}
+
+/* .episode__content {
+	display: flex;
+} */
